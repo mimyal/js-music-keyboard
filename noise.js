@@ -2,7 +2,7 @@
 
 
 $(document).ready( function() {
-  $('body').on('keydown', function(event) {
+  $(this).on('keydown', function(event) {
     var noteId = selectNote(event.key);
     return doReMi(noteId);
   });
